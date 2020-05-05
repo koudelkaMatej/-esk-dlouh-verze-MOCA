@@ -1,0 +1,3 @@
+title=MOCA-KratkaVerze
+author=MatejKoudelka
+orientation=landscape
