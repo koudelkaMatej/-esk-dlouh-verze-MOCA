@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# MoCa - Czech Version by Matěj Koudelka is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0
 from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.widget import Widget
