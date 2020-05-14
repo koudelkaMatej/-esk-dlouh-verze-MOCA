@@ -1,3 +1,3 @@
 title=MOCA-DlouhaVerze
-author=MatejKoudelka
+author=MatejKoudelkaV1.00
 orientation=landscape
