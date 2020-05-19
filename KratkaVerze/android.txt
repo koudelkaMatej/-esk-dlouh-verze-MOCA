@@ -1,3 +1,3 @@
-title=MOCA-KratkaVerze
-author=MatejKoudelkaV1.00
+title=MOCA-KratkaVerzeV1.01
+author=MatejKoudelka
 orientation=landscape
