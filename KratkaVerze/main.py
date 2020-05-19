@@ -105,7 +105,7 @@ class Screen(Carousel):
         self.add_widget(screen) 
 
     def welcome_screen(self):
-        screen = GridLayout(cols=1, size_hint=(.60, .6), pos_hint={"x":.2, "y":.3}, row_default_height=90, row_force_default=True)
+        screen = GridLayout(cols=1, size_hint=(.60, .6), pos_hint={"x":.2, "y":.3}, row_default_height=70, row_force_default=True)
         with screen.canvas.before:
             Color(.2,.2,.2)
             Rectangle(size=Window.size)
