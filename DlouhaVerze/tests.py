@@ -508,9 +508,9 @@ class SpeachRepeatTest(Test):
 		self.instruction = "TENTO TEST ZPRACOVÁVÁ TESTUJÍCÍ!\nŘekněte: „Přečtu vám větu a Vy jí po mně zopakujete \npřesně tak slovo od slova jak jsem jí řekl.“"
 		self.instruction_audio = "sounds/ins6-1.mp3"
 		self.test_field = GridLayout(cols=3, size_hint=(.8, .5), row_force_default=True, row_default_height=70, pos_hint={"x":.1})
-		self.sent_1 = Label(text=u"Pouze vím, že je to Jan, kdo má dnes pomáhat.", font_size="60px")
+		self.sent_1 = Label(text=u"Pouze vím, že je to Jan, kdo má dnes pomáhat.", font_size="55px")
 		self.sent_1_chb = CheckBox(size_hint_x=None, width=20)
-		self.sent_2 = Label(text=u"Když jsou v místnosti psi, kočka se vždy schová pod gauč.", font_size="60px")
+		self.sent_2 = Label(text=u"Když jsou v místnosti psi, kočka se vždy schová pod gauč.", font_size="55px")
 		self.sent_2_chb = CheckBox(size_hint_x=None, width=20)
 
 		self.sent_1_chb.bind(active=partial(self.checkbox_callback, self))
